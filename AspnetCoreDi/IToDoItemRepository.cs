@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PoormanDI
+namespace AspnetCoreDi
 {
     public interface IToDoItemRepository
     {

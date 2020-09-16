@@ -8,7 +8,7 @@ namespace NoDI
 {
     public class Mapper
     {
-        public ToDoItemViewModel ToViewModel(ToDoItemDto dto) =>
+        public ToDoItemViewModel ToViewModel(ToDoItem dto) =>
             new ToDoItemViewModel
             {
                 Title = dto.Title,

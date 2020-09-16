@@ -1,4 +1,4 @@
-﻿namespace PoormanDI
+﻿namespace AspnetCoreDi
 {
     public interface IMapper
     {
