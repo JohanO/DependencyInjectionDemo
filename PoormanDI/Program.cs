@@ -6,7 +6,7 @@ namespace PoormanDI
     {
         static void Main(string[] args)
         {
-            var repository = new RepositoryTimer(new ToDoItemRepository());
+            var repository = new ToDoItemRepository();
             var mapper = new Mapper();
             var controller = new ToDoController(repository, mapper);
             DisplayToDoItems(controller);
